@@ -1,0 +1,1 @@
+rm -rf pub/static/ var/cache/ var/view_preprocessed/ var/page_cache && php bin/magento setup:static-content:deploy -f -j 100 && php bin/magento c:f

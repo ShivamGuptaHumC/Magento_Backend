@@ -1,0 +1,1 @@
+php bin/magento set:up && php bin/magento set:di:comp && php bin/magento c:f
